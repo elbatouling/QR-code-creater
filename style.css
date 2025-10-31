@@ -77,4 +77,14 @@ body{
     50%{ transform: translateX(0); }
     75%{ transform: translateX(2px); }
     100%{ transform: translateX(0); }
+
+}
+
+#downloadBtn {
+    display: none;
+    background: #2ecc71;
+}
+
+#downloadBtn:hover {
+    background: #27ae60;
 }
