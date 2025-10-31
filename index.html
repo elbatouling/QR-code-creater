@@ -15,7 +15,6 @@
          </div>
         <button onclick="generateQR()">Generate QR Code</button>
         <button onclick="downloadQR()" id="downloadBtn">Download QR Code</button>
-
         
     </div>
 
@@ -25,7 +24,6 @@
     let qrImage = document.getElementById("qrImage");
     let qrText = document.getElementById("qrText");
     let downloadBtn = document.getElementById("downloadBtn");
-
 
      function generateQR() {
     if(qrText.value.length > 0) {
@@ -66,6 +64,4 @@ function downloadQR() {
 
     </script>
 </body>
-
 </html>
-
